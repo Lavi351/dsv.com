@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSV Power Dynamics & Workplace Equality Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .options input {
+            margin-right: 10px;
+        }
+
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Power Dynamics & Workplace Equality</h1>
+
+        <form action="thankyou.html" method="post">
+            <!-- Question 6 -->
+            <div class="question">
+                <label>6. Do you feel that leadership at DSV actively promotes diversity and inclusion?</label>
+                <div class="options">
+                    <label><input type="radio" name="q6" value="Yes, strongly"> Yes, strongly</label>
+                    <label><input type="radio" name="q6" value="Somewhat"> Somewhat</label>
+                    <label><input type="radio" name="q6" value="Not sure"> Not sure</label>
+                    <label><input type="radio" name="q6" value="No, leadership does not focus on this"> No, leadership does not focus on this</label>
+                </div>
+            </div>
+
+            <!-- Question 7 -->
+            <div class="question">
+                <label>7. Have you ever felt that your ideas or contributions were overlooked due to bias (e.g., gender, race, seniority, etc.)?</label>
+                <div class="options">
+                    <label><input type="radio" name="q7" value="Yes, frequently"> Yes, frequently</label>
+                    <label><input type="radio" name="q7" value="Occasionally"> Occasionally</label>
+                    <label><input type="radio" name="q7" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="q7" value="No, never"> No, never</label>
+                </div>
+            </div>
+
+            <!-- Question 8 -->
+            <div class="question">
+                <label>8. Do you feel comfortable reporting concerns about discrimination or bias to HR or management?</label>
+                <div class="options">
+                    <label><input type="radio" name="q8" value="Yes, without hesitation"> Yes, without hesitation</label>
+                    <label><input type="radio" name="q8" value="Yes, but I worry about retaliation"> Yes, but I worry about retaliation</label>
+                    <label><input type="radio" name="q8" value="No, I do not trust the reporting process"> No, I do not trust the reporting process</label>
+                    <label><input type="radio" name="q8" value="No, I don’t think anything would change"> No, I don’t think anything would change</label>
+                </div>
+            </div>
+
+            <!-- Question 9 -->
+            <div class="question">
+                <label>9. Have you noticed patterns of favoritism or unequal treatment in promotions, assignments, or recognition?</label>
+                <div class="options">
+                    <label><input type="radio" name="q9" value="Yes, frequently"> Yes, frequently</label>
+                    <label><input type="radio" name="q9" value="Occasionally"> Occasionally</label>
+                    <label><input type="radio" name="q9" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="q9" value="No, never"> No, never</label>
+                </div>
+            </div>
+
+            <!-- Question 10 -->
+            <div class="question">
+                <label>10. Do you think there are any “unwritten rules” or insider networks at DSV that make it harder for some employees to advance?</label>
+                <div class="options">
+                    <label><input type="radio" name="q10" value="Yes, definitely"> Yes, definitely</label>
+                    <label><input type="radio" name="q10" value="Somewhat"> Somewhat</label>
+                    <label><input type="radio" name="q10" value="No, everyone has an equal opportunity"> No, everyone has an equal opportunity</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Survey</button>
+        </form>
+    </div>
+
+</body>
+</html>
