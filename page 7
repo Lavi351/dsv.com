@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Participating!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: center;
+            color: #555;
+        }
+
+        .button {
+            display: block;
+            width: 200px;
+            padding: 10px 0;
+            margin: 30px auto;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Thank You for Your Participation!</h1>
+        <p>Your feedback is valuable and will help us improve diversity and inclusion at DSV. We appreciate the time you’ve taken to provide your insights.</p>
+        
+        <a href="index.html" class="button">Return to Survey</a>  <!-- Link back to the main page, if needed -->
+
+    </div>
+
+</body>
+</html>
+
