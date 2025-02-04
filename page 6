@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSV Survey - Microaggressions & Workplace Behavior / Solutions & Improvement</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .options input {
+            margin-right: 10px;
+        }
+
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+
+        .open-ended {
+            margin-top: 10px;
+            margin-bottom: 20px;
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Microaggressions & Workplace Behavior / Solutions & Improvement Areas</h1>
+
+        <form action="thankyou.html" method="post">
+            <!-- Question 16 -->
+            <div class="question">
+                <label>16. Have you experienced or witnessed microaggressions at work (e.g., subtle biased comments, stereotypes, exclusion)?</label>
+                <div class="options">
+                    <label><input type="radio" name="q16" value="Yes, frequently"> Yes, frequently</label>
+                    <label><input type="radio" name="q16" value="Occasionally"> Occasionally</label>
+                    <label><input type="radio" name="q16" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="q16" value="No, never"> No, never</label>
+                </div>
+            </div>
+
+            <!-- Question 17 -->
+            <div class="question">
+                <label>17. Do you feel comfortable addressing or reporting microaggressions when they occur?</label>
+                <div class="options">
+                    <label><input type="radio" name="q17" value="Yes, always"> Yes, always</label>
+                    <label><input type="radio" name="q17" value="Sometimes"> Sometimes</label>
+                    <label><input type="radio" name="q17" value="No, I fear backlash"> No, I fear backlash</label>
+                    <label><input type="radio" name="q17" value="No, I don’t think anything would change"> No, I don’t think anything would change</label>
+                </div>
+            </div>
+
+            <!-- Question 18 -->
+            <div class="question">
+                <label>18. What do you think are the biggest barriers to a more diverse and inclusive workplace at DSV? (Select up to 3)</label>
+                <div class="options">
+                    <label><input type="checkbox" name="q18" value="Lack of leadership commitment"> Lack of leadership commitment</label>
+                    <label><input type="checkbox" name="q18" value="Bias in hiring and promotions"> Bias in hiring and promotions</label>
+                    <label><input type="checkbox" name="q18" value="Limited training or awareness"> Limited training or awareness</label>
+                    <label><input type="checkbox" name="q18" value="Fear of speaking up about issues"> Fear of speaking up about issues</label>
+                    <label><input type="checkbox" name="q18" value="Workplace culture that discourages diversity"> Workplace culture that discourages diversity</label>
+                    <label><input type="checkbox" name="q18" value="Other"> Other (please specify)</label>
+                    <input type="text" name="q18_other" placeholder="Please specify" class="open-ended">
+                </div>
+            </div>
+
+            <!-- Question 19 -->
+            <div class="question">
+                <label>19. What specific actions do you think DSV could take to improve diversity and inclusion? (Open-ended response)</label>
+                <textarea name="q19" class="open-ended" placeholder="Your answer here"></textarea>
+            </div>
+
+            <!-- Question 20 -->
+            <div class="question">
+                <label>20. Would you be interested in participating in diversity and inclusion initiatives (e.g., mentorship programs, focus groups, training)?</label>
+                <div class="options">
+                    <label><input type="radio" name="q20" value="Yes, definitely"> Yes, definitely</label>
+                    <label><input type="radio" name="q20" value="Maybe, depending on the format"> Maybe, depending on the format</label>
+                    <label><input type="radio" name="q20" value="No, I’m not interested"> No, I’m not interested</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Survey</button>
+        </form>
+    </div>
+
+</body>
+</html>
