@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSV Diversity & Representation Survey</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            width: 60%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            font-size: 16px;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .question {
+            margin-bottom: 20px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .options input {
+            margin-right: 10px;
+        }
+
+        .submit-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Diversity & Representation</h1>
+
+        <form action="thankyou.html" method="post">
+            <!-- Question 11 -->
+            <div class="question">
+                <label>11. Do you feel that leadership positions at DSV reflect a diverse range of employees?</label>
+                <div class="options">
+                    <label><input type="radio" name="q11" value="Yes, definitely"> Yes, definitely</label>
+                    <label><input type="radio" name="q11" value="Somewhat, but there is room for improvement"> Somewhat, but there is room for improvement</label>
+                    <label><input type="radio" name="q11" value="No, leadership lacks diversity"> No, leadership lacks diversity</label>
+                </div>
+            </div>
+
+            <!-- Question 12 -->
+            <div class="question">
+                <label>12. Do you believe that hiring and recruitment practices at DSV prioritize diversity and inclusion?</label>
+                <div class="options">
+                    <label><input type="radio" name="q12" value="Yes, always"> Yes, always</label>
+                    <label><input type="radio" name="q12" value="Sometimes"> Sometimes</label>
+                    <label><input type="radio" name="q12" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="q12" value="No, never"> No, never</label>
+                </div>
+            </div>
+
+            <!-- Question 13 -->
+            <div class="question">
+                <label>13. Have you received any formal training on diversity and inclusion at DSV?</label>
+                <div class="options">
+                    <label><input type="radio" name="q13" value="Yes, and it was helpful"> Yes, and it was helpful</label>
+                    <label><input type="radio" name="q13" value="Yes, but it was not effective"> Yes, but it was not effective</label>
+                    <label><input type="radio" name="q13" value="No, but I would like to"> No, but I would like to</label>
+                    <label><input type="radio" name="q13" value="No, and I’m not interested"> No, and I’m not interested</label>
+                </div>
+            </div>
+
+            <!-- Question 14 -->
+            <div class="question">
+                <label>14. In your experience, do employees from underrepresented backgrounds (e.g., women, visible minorities, LGBTQ+, individuals with disabilities) face additional challenges at DSV?</label>
+                <div class="options">
+                    <label><input type="radio" name="q14" value="Yes, frequently"> Yes, frequently</label>
+                    <label><input type="radio" name="q14" value="Occasionally"> Occasionally</label>
+                    <label><input type="radio" name="q14" value="Rarely"> Rarely</label>
+                    <label><input type="radio" name="q14" value="No, never"> No, never</label>
+                </div>
+            </div>
+
+            <!-- Question 15 -->
+            <div class="question">
+                <label>15. Do you believe that DSV should take more proactive steps to improve diversity and inclusion?</label>
+                <div class="options">
+                    <label><input type="radio" name="q15" value="Yes, definitely"> Yes, definitely</label>
+                    <label><input type="radio" name="q15" value="Maybe"> Maybe</label>
+                    <label><input type="radio" name="q15" value="No, it is not necessary"> No, it is not necessary</label>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Survey</button>
+        </form>
+    </div>
+
+</body>
+</html>
