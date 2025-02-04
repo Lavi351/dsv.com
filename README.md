@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSV Workplace Culture & Inclusion Survey</title>
+    <title>Page1-DSV Workplace Culture & Inclusion Survey</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -74,7 +74,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Employee Details - DSV Survey</title>
+    <title>Page 2-Employee Details - DSV Survey</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -174,7 +174,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSV Workplace Culture & Inclusion Survey</title>
+    <title>Page3-DSV Workplace Culture & Inclusion Survey</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -305,7 +305,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSV Power Dynamics & Workplace Equality Survey</title>
+    <title>Page 4-DSV Power Dynamics & Workplace Equality Survey</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -560,7 +560,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DSV Survey - Microaggressions & Workplace Behavior / Solutions & Improvement</title>
+    <title>Page5-DSV Survey - Microaggressions & Workplace Behavior / Solutions & Improvement</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -693,7 +693,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You for Participating!</title>
+    <title>Page 6-Thank You for Participating!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
