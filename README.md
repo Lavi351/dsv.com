@@ -62,7 +62,7 @@
         <p>The survey is anonymous, and we encourage you to answer all questions truthfully. It will take approximately 10-15 minutes to complete.</p>
         <p>Please click the button below to start the survey.</p>
         
-        <a href="page1.html">
+        <a href="welcome.html">
             <button class="start-btn">Start Survey</button>
         </a>
     </div>
